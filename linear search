@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int a[5]={1,4,23,5,6},i,s;
+    int ele=5;
+    for(i=0;i<5;i++){
+        if(a[i]==ele){
+            s=1;    
+        }
+    }
+    if(s==1){
+        printf("found");
+    }
+    else{
+        printf("not found");
+    }
+}
